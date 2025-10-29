@@ -57,6 +57,7 @@ exiftool -r /path/to/folder
 - ```-time:all: Show only timestamps```
 
 - ```-GPSLatitude -GPSLongitude: Extract GPS data```
+<img width="900" height="637" alt="435680836-861dc1d1-4932-460d-9261-2e3295ee9f42" src="https://github.com/user-attachments/assets/1f1cb1e8-65e4-476f-acbd-5c89157bcebb" />
 
 
 
@@ -65,6 +66,7 @@ exiftool -r /path/to/folder
 sudo apt install plaso -y
 ```
 
+
 ```
 sudo apt install steghide -y
 ```
@@ -72,13 +74,14 @@ sudo apt install steghide -y
 ```
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
 ```
-
+<img width="1278" height="190" alt="435685839-d34970ca-ee2c-4a7f-9980-518b74962f02" src="https://github.com/user-attachments/assets/300ebf4b-3938-4513-9740-ac2c85fb688e" />
 
 - **Extract hidden data:**
 ```
 steghide extract -sf hidden.jpg
 
 ```
+<img width="1060" height="169" alt="435686036-85520110-9150-417a-b6a9-28e559100cf7" src="https://github.com/user-attachments/assets/ed4f07e0-ed64-4eaa-85ee-d449390c078b" />
 
 
 ### Using binwalk – for file analysis
@@ -89,6 +92,7 @@ binwalk suspicious.jpg
 ```bash
 binwalk /home/kali/Downloads/wallpaper.jpg
 ```
+<img width="1108" height="197" alt="435687161-b26be271-0680-491f-8868-1216de6fd7eb" src="https://github.com/user-attachments/assets/07ff5cd8-669f-42c6-a79d-5707beefd96d" />
 
 
 ## RESULT:
